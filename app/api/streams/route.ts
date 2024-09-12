@@ -3,6 +3,7 @@ import { z } from "zod";
 import { prismaClient } from "../../lib/db";
 //@ts-ignore
 import { getServerSession } from "next-auth";
+//@ts-ignore
 import youtubesearchapi from "youtube-search-api";
 
 const YT_REGEX = new RegExp(
